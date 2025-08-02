@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "",
+    "text": "Comprehensive geospatial datasets designed for researchers, GIS professionals, and data scientists.\nDiscover high-quality Tuberculosis Units spatial data with multiple format options, complete documentation, and ready-to-use examples for your project.\nExplore Downloads View Documentation"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "Dataset Overview",
+    "text": "Dataset Overview\nThis shapefile contains the spatial boundaries of Tuberculosis Units (TUs) in Kerala, India. The dataset represents 77 tuberculosis administrative units across various districts in the state, providing comprehensive coverage for TB surveillance and management purposes.\n\n\n Multiple Formats\nAvailable in 4+ formats including Shapefile, GeoJSON, R Data, CSV, and KML for interoperability.\n\n\n Open Access\nAvailable under permissive licensing for academic research, education, and appropriate commercial use.\n\n\n High-Resolution Data"
+  },
+  {
+    "objectID": "index.html#downloads",
+    "href": "index.html#downloads",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "Downloads",
+    "text": "Downloads\nChoose the format that best fits your workflow and analysis platform:"
+  },
+  {
+    "objectID": "index.html#download-formats",
+    "href": "index.html#download-formats",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "Download Formats",
+    "text": "Download Formats"
+  },
+  {
+    "objectID": "index.html#download-formats-1",
+    "href": "index.html#download-formats-1",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "Download Formats",
+    "text": "Download Formats\n\n\n\nFormat\nDescription\nFile Size\nBest For\nDownload\n\n\n\n\nShapefile (.shp)\nTraditional GIS format for desktop applications like ArcGIS and QGIS. Includes geometry, attributes, and projection info (.shx, .dbf, .prj files).\n~4.5 MB (zipped)\nDesktop GIS, traditional workflows\nDownload Shapefile\n\n\nR Data (.rds)\nNative R format using sf (Simple Features) package. Ready to load directly into R for spatial analysis. Compatible with R ≥3.5.0, requires sf and dplyr packages.\n~5.7 MB\nR users, statistical analysis\nDownload R Data\n\n\nGeoJSON (.geojson)\nOGC standard format supporting multiple layers, spatial indexes, and advanced geometries. Modern web-friendly spatial format.\n~18.7 MB\nModern GIS, web applications\nDownload GeoJSON\n\n\nKML (.kml)\nKeyhole Markup Language for Google Earth, web mapping applications, and GPS devices. Includes styled features and descriptions.\n~11.5 MB\nGoogle Earth, web maps, GPS\nDownload KML\n\n\n\n\nDownload Information\n\nLast Updated: 02 August 2025\nVersion: 1.0.0\nGeometry Type: Polygon\nTotal Records: 77 spatial features\nCoordinate System: WGS84 (EPSG:32643)"
+  },
+  {
+    "objectID": "index.html#documentation",
+    "href": "index.html#documentation",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "Documentation",
+    "text": "Documentation\n\nData Dictionary\n\n\n\nField Name\nType\nDescription\n\n\n\n\nfid\nInteger\nFeature identifier (1-77)\n\n\nDistrict\nString\nDistrict name where the TU is located\n\n\nTU_Name\nString\nTuberculosis Unit name"
+  },
+  {
+    "objectID": "index.html#examples",
+    "href": "index.html#examples",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "Usage Examples",
+    "text": "Usage Examples\n\nR (using sf package)\n# Load required libraries\nlibrary(sf)\nlibrary(tidyverse)\n\n# Method 1: Load from RDS file\ntu_sf &lt;- read_rds(\"tuberculosis_units_kerala.rds\")\n\n# Method 2: Load from other formats\ntu_sf &lt;- st_read(\"tuberculosis_units_kerala.shp\")\n\n# Data Visualization using the `sf` package\n\n# Plot TUs\ntu_sf |&gt; \n  ggplot() +\n  geom_sf()\n\n# Plot TUs by District  \ntu_sf |&gt; \n  ggplot() +\n  geom_sf(\n    aes(fill = District)\n  )"
+  },
+  {
+    "objectID": "index.html#licensing",
+    "href": "index.html#licensing",
+    "title": "Tuberculosis Units - Kerala",
+    "section": "Citation and Licensing",
+    "text": "Citation and Licensing\n\nHow to Cite\nWhen using this data in your research, please cite as:\n\nAMC Data Science Lab. (2025). Tuberculosis Units - Kerala (v1.0) [Dataset]. Retrieved from https://amchss.github.io/amchss-spatial-data\n\nBibTeX:\n@misc{amchss_spatial_2025,\n  title={{Tuberculosis Units - Kerala (v1.0)}},\n  author={{AMC Data Science Lab}},\n  year={2025},\n  version={1.0},\n  url={https://amchss.github.io/amchss-spatial-data}\n}\n\n\nLicense Information\nThis dataset is released under the MIT License\n\n\nVersion: 1.0.0 | Contact: amchss.sctimst@gmail.com\nThis website is built with Quarto and hosted on GitHub Pages. All data and code are open source."
+  }
+]
