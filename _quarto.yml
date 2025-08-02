@@ -1,12 +1,16 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "data/"
+
+
 
 website:
   title: "AMCHSS Spatial Data Resources"
   description: "Professional geospatial datasets and resources from AMCHSS research initiatives"
-  site-url: "https://yourusername.github.io/amchss-spatial-data"
-  repo-url: "https://github.com/yourusername/amchss-spatial-data"
+  site-url: "https://amchss.github.io/amchss-spatial-data"
+  repo-url: "https://github.com/amchss/amchss-spatial-data"
 
   navbar:
     background: "#2c5282"
@@ -17,7 +21,7 @@ website:
         href: index.qmd
     right:
       - icon: github
-        href: "https://github.com/yourusername/amchss-spatial-data"
+        href: "https://github.com/amchss/amchss-spatial-data"
         aria-label: "GitHub Repository"
       - icon: download
         text: "Downloads"

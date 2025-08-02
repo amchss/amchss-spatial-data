@@ -46,8 +46,6 @@ Choose the format that best fits your workflow and analysis platform:
 
 ## Download Formats
 
-## Download Formats
-
 | Format | Description | File Size | Best For | Download |
 |--------|-------------|-----------|----------|----------|
 | **Shapefile (.shp)** | Traditional GIS format for desktop applications like ArcGIS and QGIS. Includes geometry, attributes, and projection info (.shx, .dbf, .prj files). | ~4.5 MB (zipped) | Desktop GIS, traditional workflows | [Download Shapefile](https://amchss.github.io/amchss-spatial-data/data/tuberculosis_units_kerala.zip) |
