@@ -1,0 +1,44 @@
+{
+  "name": "amchss-spatial-data",
+  "version": "1.0.0",
+  "description": "Professional Quarto website for distributing AMCHSS spatial datasets with multiple formats and comprehensive documentation",
+  "main": "index.qmd",
+  "scripts": {
+    "preview": "quarto preview",
+    "build": "quarto render",
+    "deploy": "quarto publish gh-pages",
+    "lint": "echo 'No linting configured'",
+    "test": "echo 'No tests configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/amchss-spatial-data.git"
+  },
+  "homepage": "https://yourusername.github.io/amchss-spatial-data",
+  "bugs": {
+    "url": "https://github.com/yourusername/amchss-spatial-data/issues"
+  },
+  "keywords": [
+    "spatial-data",
+    "gis",
+    "geospatial",
+    "quarto",
+    "healthcare",
+    "research",
+    "datasets",
+    "shapefile",
+    "geopackage",
+    "r-data",
+    "kml"
+  ],
+  "author": {
+    "name": "AMCHSS Research Team",
+    "email": "spatial-data@amchss.org"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

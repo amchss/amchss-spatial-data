@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "AMCHSS Spatial Data Resources"
+  description: "Professional geospatial datasets and resources from AMCHSS research initiatives"
+  site-url: "https://yourusername.github.io/amchss-spatial-data"
+  repo-url: "https://github.com/yourusername/amchss-spatial-data"
+
+  navbar:
+    background: "#2c5282"
+    foreground: white
+    title: "AMCHSS Spatial Data"
+    left:
+      - text: "Home"
+        href: index.qmd
+    right:
+      - icon: github
+        href: "https://github.com/yourusername/amchss-spatial-data"
+        aria-label: "GitHub Repository"
+      - icon: download
+        text: "Downloads"
+        href: "#downloads"
+        aria-label: "Download Data"
+
+  page-footer:
+    left: |
+      © 2025 AMCHSS. All rights reserved. | Licensed under MIT License
+    right: |
+      Built with [Quarto](https://quarto.org/)
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/custom.scss
+    toc: true
+    toc-location: right
+    toc-title: "Navigation"
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    include-in-header: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="AMCHSS">
+      <meta name="keywords" content="spatial data, GIS, geospatial, research, datasets">
+
+execute:
+  freeze: auto
+
+lang: en
