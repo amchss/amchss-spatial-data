@@ -18,14 +18,7 @@
     "href": "index.html#downloads",
     "title": "Tuberculosis Units - Kerala",
     "section": "Downloads",
-    "text": "Downloads\nChoose the format that best fits your workflow and analysis platform:"
-  },
-  {
-    "objectID": "index.html#download-formats",
-    "href": "index.html#download-formats",
-    "title": "Tuberculosis Units - Kerala",
-    "section": "Download Formats",
-    "text": "Download Formats\n\n\n\nFormat\nDescription\nFile Size\nBest For\nDownload\n\n\n\n\nShapefile (.shp)\nTraditional GIS format for desktop applications like ArcGIS and QGIS. Includes geometry, attributes, and projection info (.shx, .dbf, .prj files).\n~4.5 MB (zipped)\nDesktop GIS, traditional workflows\nDownload Shapefile\n\n\nR Data (.rds)\nNative R format using sf (Simple Features) package. Ready to load directly into R for spatial analysis. Compatible with R ≥3.5.0, requires sf and dplyr packages.\n~5.7 MB\nR users, statistical analysis\nDownload R Data\n\n\nGeoJSON (.geojson)\nOGC standard format supporting multiple layers, spatial indexes, and advanced geometries. Modern web-friendly spatial format.\n~18.7 MB\nModern GIS, web applications\nDownload GeoJSON\n\n\nKML (.kml)\nKeyhole Markup Language for Google Earth, web mapping applications, and GPS devices. Includes styled features and descriptions.\n~11.5 MB\nGoogle Earth, web maps, GPS\nDownload KML\n\n\n\n\nDownload Information\n\nLast Updated: 02 August 2025\nVersion: 1.0.0\nGeometry Type: Polygon\nTotal Records: 77 spatial features\nCoordinate System: WGS84 (EPSG:32643)"
+    "text": "Downloads\nChoose the format that best fits your workflow and analysis platform:\n\n\n\nFormat\nDescription\nFile Size\nBest For\nDownload\n\n\n\n\nShapefile (.shp)\nTraditional GIS format for desktop applications like ArcGIS and QGIS. Includes geometry, attributes, and projection info (.shx, .dbf, .prj files).\n~4.5 MB (zipped)\nDesktop GIS, traditional workflows\nDownload Shapefile\n\n\nR Data (.rds)\nNative R format using sf (Simple Features) package. Ready to load directly into R for spatial analysis. Compatible with R ≥3.5.0, requires sf and dplyr packages.\n~5.7 MB\nR users, statistical analysis\nDownload R Data\n\n\nGeoJSON (.geojson)\nOGC standard format supporting multiple layers, spatial indexes, and advanced geometries. Modern web-friendly spatial format.\n~18.7 MB\nModern GIS, web applications\nDownload GeoJSON\n\n\nKML (.kml)\nKeyhole Markup Language for Google Earth, web mapping applications, and GPS devices. Includes styled features and descriptions.\n~11.5 MB\nGoogle Earth, web maps, GPS\nDownload KML\n\n\n\n\nDownload Information\n\nLast Updated: 02 August 2025\nVersion: 1.0.0\nGeometry Type: Polygon\nTotal Records: 77 spatial features\nCoordinate System: WGS84 (EPSG:32643)"
   },
   {
     "objectID": "index.html#documentation",

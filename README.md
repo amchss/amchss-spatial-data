@@ -45,10 +45,10 @@ This repository contains high-quality spatial datasets from AMCHSS (Achutha Meno
 
 | Format | Description | File Size | Best For | Download |
 |--------|-------------|-----------|----------|----------|
-| **Shapefile** | Traditional GIS format (includes .shp, .shx, .dbf, .prj files) | ~4.5 MB | Desktop GIS (ArcGIS, QGIS) | [Download](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.zip) |
-| **R Data** | Native R format using sf package | ~5.7 MB | R users, statistical analysis | [Download](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.rds) |
-| **GeoJSON** | Modern web-friendly spatial format | ~18.7 MB | Web applications, modern GIS | [Download](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.geojson) |
-| **KML** | Google Earth and GPS compatible | ~11.5 MB | Google Earth, web maps, GPS | [Download](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.kml) |
+| **Shapefile** | Traditional GIS format (includes .shp, .shx, .dbf, .prj files) | ~4.5 MB | Desktop GIS (ArcGIS, QGIS) | [Download](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.zip) |
+| **R Data** | Native R format using sf package | ~5.7 MB | R users, statistical analysis | [Download](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.rds) |
+| **GeoJSON** | Modern web-friendly spatial format | ~18.7 MB | Web applications, modern GIS | [Download](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.geojson) |
+| **KML** | Google Earth and GPS compatible | ~11.5 MB | Google Earth, web maps, GPS | [Download](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.kml) |
 
 ## 💻 Usage Examples
 

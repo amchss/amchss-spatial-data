@@ -44,14 +44,12 @@ Available under permissive licensing for academic research, education, and appro
 
 Choose the format that best fits your workflow and analysis platform:
 
-## Download Formats
-
 | Format | Description | File Size | Best For | Download |
 |--------|-------------|-----------|----------|----------|
-| **Shapefile (.shp)** | Traditional GIS format for desktop applications like ArcGIS and QGIS. Includes geometry, attributes, and projection info (.shx, .dbf, .prj files). | ~4.5 MB (zipped) | Desktop GIS, traditional workflows | [Download Shapefile](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.zip) |
-| **R Data (.rds)** | Native R format using sf (Simple Features) package. Ready to load directly into R for spatial analysis. Compatible with R ≥3.5.0, requires sf and dplyr packages. | ~5.7 MB | R users, statistical analysis | [Download R Data](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.rds) |
-| **GeoJSON (.geojson)** | OGC standard format supporting multiple layers, spatial indexes, and advanced geometries. Modern web-friendly spatial format. | ~18.7 MB | Modern GIS, web applications | [Download GeoJSON](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.geojson) |
-| **KML (.kml)** | Keyhole Markup Language for Google Earth, web mapping applications, and GPS devices. Includes styled features and descriptions. | ~11.5 MB | Google Earth, web maps, GPS | [Download KML](https://amchss.github.io/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.kml) |
+| **Shapefile (.shp)** | Traditional GIS format for desktop applications like ArcGIS and QGIS. Includes geometry, attributes, and projection info (.shx, .dbf, .prj files). | ~4.5 MB (zipped) | Desktop GIS, traditional workflows | [Download Shapefile](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.zip) |
+| **R Data (.rds)** | Native R format using sf (Simple Features) package. Ready to load directly into R for spatial analysis. Compatible with R ≥3.5.0, requires sf and dplyr packages. | ~5.7 MB | R users, statistical analysis | [Download R Data](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.rds) |
+| **GeoJSON (.geojson)** | OGC standard format supporting multiple layers, spatial indexes, and advanced geometries. Modern web-friendly spatial format. | ~18.7 MB | Modern GIS, web applications | [Download GeoJSON](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.geojson) |
+| **KML (.kml)** | Keyhole Markup Language for Google Earth, web mapping applications, and GPS devices. Includes styled features and descriptions. | ~11.5 MB | Google Earth, web maps, GPS | [Download KML](https://github.com/amchss/amchss-spatial-data/blob/main/data/tuberculosis_units_kerala.kml) |
 
 ::: download-info
 ### Download Information
